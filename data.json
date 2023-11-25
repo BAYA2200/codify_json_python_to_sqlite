@@ -1,0 +1,33 @@
+[
+   {
+      "model": "my_proj.customer",
+      "pk": 1,
+      "fields": {
+         "name": "Keely Newman",
+         "phone": "(187) 527-0677",
+         "email": "elit.aliquam@protonmail.ca"
+      }
+   },
+   {
+      "model": "my_proj.work",
+      "pk": 1,
+      "fields": {
+         "address": "Ap #862-7597 Amet Street",
+         "city": "Newton",
+         "company": "Tincidunt Pede Industries",
+         "postalZip": 5726,
+         "customer": 1
+      }
+   },
+   {
+      "model": "my_proj.account",
+      "pk": 1,
+      "fields": {
+         "pin": 4410,
+         "acc_num": "AZ21101047771623541411110486",
+         "pan": "538757 9147317776",
+         "cvv": 893,
+         "customer": 1
+      }
+   }
+]
